@@ -1,0 +1,23 @@
+# Ignore virtual environment folder
+Backend/.venv/
+
+# Ignore Python cache files
+Backend/__pycache__/
+
+# Ignore other common Python artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore environment variable files
+.env
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore logs
+*.log

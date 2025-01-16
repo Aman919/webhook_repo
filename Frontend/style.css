@@ -1,0 +1,37 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f9f9f9;
+}
+
+ header {
+     background-color: #333;
+     color: white;
+     padding: 1rem;
+     text-align: center;
+}
+
+ #events-list {
+     width: 80%;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ .event-item {
+     padding: 10px;
+     margin-bottom: 10px;
+     border-bottom: 1px solid #ddd;
+}
+
+ .event-item:last-child {
+     border-bottom: none;
+}
+
+ .event-item span {
+     color: #333;
+     font-weight: bold;
+}
